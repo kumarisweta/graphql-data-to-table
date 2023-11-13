@@ -1,3 +1,9 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+	background: linear-gradient(45deg, #FF815B 50%, #FFA487 50%);
+	min-height: 100vh;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,65 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h1 {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+	border-collapse: collapse;
+	background: #b4b5b7;
+	color: black;
+}
+
+td,
+th {
+	padding: 10px;
+	text-align: left;
+	padding-left: 50px;
+}
+
+tr:nth-of-type(odd) {
+	background: #fafbfb;
+	border: 1px solid #e15402;
+}
+
+th {
+	background: #e15402;
+	font-weight: bold;
+	color: white;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+  margin-top: 10pt;
+  margin-bottom: 20pt;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+  margin-top: 10pt;
+  margin-bottom: 20pt;
+ 
+}
+
+input {
+  width: 15%;
+  align-items: center;
+  margin-top: 10pt;
+  margin-bottom: 20pt;
+}
+
+.centerAlignment {
+  text-align: center;
 }
