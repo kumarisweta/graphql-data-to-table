@@ -2,9 +2,24 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Funnctionalities  
+
+  Fetch data from GraphQL Query and show it in a Table.
+
+  Data should be fetched from countries query and show Country name and Country Code in the table.
+
+  There is a search filter above the table to find any country by country code.
+
+  At a time table will have 15 set of data and there are two button below the table for Previous and Next page which will return the previous and next data.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+To install all dependencies
 
 ### `npm start`
 
